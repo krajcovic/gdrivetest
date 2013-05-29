@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='cz.krajcovic.gdrivetest.gdrive' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/gdrive/greet" class="cz.krajcovic.gdrivetest.server.GreetingServiceImpl" />
+
+</module>
